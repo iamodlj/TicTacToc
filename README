@@ -1,0 +1,95 @@
+# Tic Tac Toe Game
+
+![Tic Tac Toe](https://img.shields.io/badge/Game-Tic%20Tac%20Toe-6c5ce7)
+![HTML](https://img.shields.io/badge/Tech-HTML-orange)
+![CSS](https://img.shields.io/badge/Tech-CSS-blue)
+![JavaScript](https://img.shields.io/badge/Tech-JavaScript-yellow)
+
+A modern, responsive Tic Tac Toe game with both Player vs Player and Player vs AI modes. The game features a clean, attractive UI with animations and multiple AI difficulty levels.
+
+## 🎮 Features
+
+- **Multiple Game Modes**:
+  - Player vs Player - Challenge a friend
+  - Player vs AI - Test your skills against the computer
+
+- **3 AI Difficulty Levels**:
+  - Easy - Makes random moves
+  - Medium - Can recognize winning moves and block opponents
+  - Hard - Uses the minimax algorithm for optimal play (unbeatable)
+
+- **Modern UI/UX**:
+  - Clean, responsive design
+  - Smooth animations and transitions
+  - Game state feedback
+  - Winner highlighting
+
+- **Responsive Design**:
+  - Works on all devices (desktop, tablet, mobile)
+  - Adapts layout based on screen size
+
+## 🔧 Technologies Used
+
+- HTML5
+- CSS3 (with animations and transitions)
+- Vanilla JavaScript (ES6+)
+- No external libraries or frameworks
+
+## 🎯 How to Play
+
+1. Open the `index.html` file in any modern web browser
+2. Select a game mode (Player vs Player or Player vs AI)
+3. If playing against AI, select the difficulty level
+4. Click "START GAME" to begin
+5. Players take turns placing their marks (X or O) on the 3×3 grid
+6. The first player to get 3 of their marks in a row (horizontally, vertically, or diagonally) wins
+7. If all cells are filled and no player has won, the game ends in a draw
+
+## 🖥️ Installation
+
+No installation required! Just download the files and open the `index.html` file in your browser.
+
+```
+git clone https://github.com/yourusername/TicTacToc.git
+cd TicTacToc
+```
+
+Then open `index.html` in your browser.
+
+## 🧠 AI Implementation
+
+The game features three AI difficulty levels:
+
+1. **Easy**: The AI randomly selects from available cells
+2. **Medium**: The AI can recognize winning moves and block opponent wins (70% smart moves, 30% random)
+3. **Hard**: Uses the minimax algorithm to make optimal decisions, making it essentially unbeatable
+
+## 📱 Responsive Design
+
+The game is fully responsive and works well on:
+- Desktop computers
+- Tablets
+- Mobile phones
+
+UI elements adapt to different screen sizes for the best user experience.
+
+## 🚀 Future Enhancements
+
+Potential future features:
+- Score tracking across multiple games
+- Sound effects and background music
+- Customizable player markers
+- Online multiplayer capability
+- Game statistics
+
+## 👨‍💻 Developer
+
+Developed by Abraham Sackey Ohene Gyan (ASOG.Dev)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Enjoy the game! Feel free to contribute or suggest improvements.

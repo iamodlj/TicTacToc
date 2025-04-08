@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "name": "tic-tac-toe",
+  "builds": [
+    { "src": "**/*", "use": "@vercel/static" }
+  ]
+}
